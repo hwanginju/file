@@ -1,0 +1,21 @@
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class MainClass {
+
+	public static void main(String[] args) throws FileNotFoundException {
+
+			File file = new File("data/data.txt");
+			
+			FileInputStream src = new FileInputStream(file);
+	
+			Scanner sc = new Scanner(src);
+			
+			while(sc.hasNextLine()) {
+				sTRING
+			}
+	}
+
+}

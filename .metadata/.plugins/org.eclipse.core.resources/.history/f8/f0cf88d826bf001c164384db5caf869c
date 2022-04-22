@@ -1,0 +1,13 @@
+
+public class Random {
+
+	public static void main(String[] args) {
+		
+//		int[] score;
+//		score = new int[5];
+	int[] score = new int[5];
+	score[3] = 100;
+	
+	}
+
+}
